@@ -26,7 +26,7 @@
     };
     
     function CreateBall(x,y){
-        $('body').append('<div id="ball'+ballCounter+'" style="width:15px; height:15px; background-color:blue; position:absolute"></div>');
+        $('body').append('<div id="ball'+ballCounter+'" style="width:15px; height:15px; background-color:brown; position:absolute"></div>');
         var ball = new Ball();   
         ball.x=x;
         ball.y=y;    
